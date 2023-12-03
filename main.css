@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+.navbar {
+    background-color: #1E90FF;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #1E90FF;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-noticias .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Nova Square', sans-serif;
+}
+
+#sobre-o-anime, #mangas {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #1E90FF;
+}
+
+.nav-noiticias .nav-link.active,
+#sugestoes button {
+    background-color: #1E90FF;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #1E90FF;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel-inner img {
+    width: 1920px;
+    height: 760px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
